@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -9,9 +9,8 @@
 
   <body>
     <header>
-      <a href="" class="logo">Web<span class="logo-studio">Studio</span> </a>
-
       <nav class="navigation">
+        <a href="" class="logo">Web<span class="logo-studio">Studio</span> </a>
         <ul class="navigation-list">
           <li class="navigation-item">
             <a href="" class="navigation-link">Студия</a>
@@ -34,9 +33,10 @@
     <main>
       <section class="hero">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button class="hero-btn">Заказать услугу</button>
+        <button type="button" class="hero-btn">Заказать услугу</button>
       </section>
       <section class="peculiarities">
+        <h2>Особенности</h2>
         <ul class="peculiarities-list">
           <li class="peculiarities-iten">
             <h3 class="peculiarities-title">Внимание к деталям</h3>
@@ -66,63 +66,64 @@
       </section>
       <section class="service">
         <h2 class="service-title">Чем мы занимаемся</h2>
-        <img src="./images/tablet2.jpg" alt="img" width="370" class="service-img" />
-        <img src="./images/phone.jpg" alt="img" width="370" class="service-img" />
-        <img src="./images/tablet1.jpg" alt="img" width="370" class="service-img" />
+        <ul class="img-list">
+          <li class="img-iten">
+            <img src="./images/tablet2.jpg" alt="img" width="370" class="service-img" />
+          </li>
+          <li class="img-iten">
+            <img src="./images/phone.jpg" alt="img" width="370" class="service-img" />
+          </li>
+          <li class="img-iten">
+            <img src="./images/tablet1.jpg" alt="img" width="370" class="service-img" />
+          </li>
+        </ul>
       </section>
       <section class="command">
         <h2 class="command-title">Наша команда</h2>
-        <div class="command-group">
-          <ul class="command-list">
-            <li class="command-item">
-              <figure class="command-figure">
-                <img
-                  src="./images/designer.jpg"
-                  alt="Product Designer"
-                  width="270"
-                  class="command-img"
-                />
-                <p class="command-text">Игорь Демьяненко</p>
-                <p class="command-text-prof">Product Designer</p>
-              </figure>
-            </li>
-            <li class="command-item">
-              <figure class="command-figure">
-                <img
-                  src="./images/developer.jpg"
-                  alt="Frontend Developer"
-                  width="270"
-                  class="command-img"
-                />
-                <p class="command-text">Ольга Репина</p>
-                <p class="command-text-prof">Frontend Developer</p>
-              </figure>
-            </li>
-            <li class="command-item">
-              <figure class="command-figure">
-                <img src="./images/marketing.jpg" alt="Marketing" width="270" class="command-img" />
-                <p class="command-text">Николай Тарасов</p>
-                <p class="command-text-prof">Marketing</p>
-              </figure>
-            </li>
-            <li class="command-item">
-              <figure class="command-figure">
-                <img src="./images/ui.jpg" alt="UI Designer" width="270" class="command-img" />
-                <p class="command-text">Михаил Ермаков</p>
-                <p class="command-text-prof">UI Designer</p>
-              </figure>
-            </li>
-          </ul>
-        </div>
+
+        <ul class="command-list">
+          <li class="command-item">
+            <img
+              src="./images/designer.jpg"
+              alt="Product Designer"
+              width="270"
+              class="command-img"
+            />
+            <h3 class="command-text">Игорь Демьяненко</h3>
+            <p class="command-text-prof">Product Designer</p>
+          </li>
+          <li class="command-item">
+            <img
+              src="./images/developer.jpg"
+              alt="Frontend Developer"
+              width="270"
+              class="command-img"
+            />
+            <h3 class="command-text">Ольга Репина</h3>
+            <p class="command-text-prof">Frontend Developer</p>
+          </li>
+          <li class="command-item">
+            <img src="./images/marketing.jpg" alt="Marketing" width="270" class="command-img" />
+            <h3 class="command-text">Николай Тарасов</h3>
+            <p class="command-text-prof">Marketing</p>
+          </li>
+          <li class="command-item">
+            <img src="./images/ui.jpg" alt="UI Designer" width="270" class="command-img" />
+            <h3 class="command-text">Михаил Ермаков</h3>
+            <p class="command-text-prof">UI Designer</p>
+          </li>
+        </ul>
       </section>
     </main>
 
     <footer>
       <a href="" class="logo">Web<span class="logo-studio">Studio</span> </a>
       <address>
-        г. Киев, пр-т Леси Украинки, 26 <br />
-        info@example.com <br />
-        +38 099 111 11 11
+        <ul>
+          <li><a href="">г. Киев, пр-т Леси Украинки, 26</a></li>
+          <li><a href="">info@example.com</a></li>
+          <li><a href="">+38 099 111 11 11</a></li>
+        </ul>
       </address>
     </footer>
   </body>
